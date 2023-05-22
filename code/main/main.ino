@@ -63,5 +63,5 @@ float temperature_model(float measured_resistance)
   float result = (1.0 / (a + b*LogR + c*LogR*LogR*LogR))-273.15;
   
   return result;
-
+  
 }
